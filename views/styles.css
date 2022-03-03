@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --dark1: #11001c;
+    --dark2: #290025;
+    --dark3: #35012c;
+    --dark4: #4f0147;
+    --dark5: #3a015c;
+    --text-color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: var(--dark1);
+}
+
+* {
+    color: var(--text-color);
+}
+
+.container {
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    position: absolute;
+    background: var(--dark2);
+}
+
+.container h1 {
+    text-align: center;
+    width: 100%;
+}
+.container p {
+    color: red;
+    text-align: center;
+}
+
+div {
+    margin: 20px 40px;
+}
+
+form div input, form div button, a {
+    background: var(--dark3);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+form div input:hover, form div button:hover, a:hover {
+    background: var(--dark4);
+}
+
+form div button {
+    background: var(--dark4);
+    width: 100%;
+    cursor: pointer;
+}
+
+a {
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    background: var(--dark2);
+}
+a:hover, form div button:hover {
+    background: var(--dark3);
+}

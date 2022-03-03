@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Scuffed login page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <p>
+            <% if (messages.error) {%>
+                <%= 'ERROR > ' + messages.error %>
+            <% } %>
+        </p>
+        <form action="/login" method="POST">
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <div>
+            <a href="/register">No account yet?</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "web1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js -e css,ejs,js,json"
+  },
+  "author": "FireFlamer06#4327",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cheerio": "^1.0.0-rc.10",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "jquery": "^3.6.0",
+    "jsdom": "^19.0.0",
+    "method-override": "^3.0.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "puppeteer": "^13.4.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
