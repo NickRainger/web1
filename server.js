@@ -1,7 +1,7 @@
 if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config()
 }
-const port = (3000)
+//const port = (3000)
 const express = require('express')
 const app = express()
 const bcrypt = require('bcrypt')
@@ -115,4 +115,4 @@ function checkNotAuthenticated(req, res, next) {
     }
     next()
 }
-app.listen(port, () => console.info(`Listening on port ${port}...`))
+//app.listen(port, () => console.info(`Listening on port ${port}...`))
