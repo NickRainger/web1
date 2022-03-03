@@ -41,12 +41,24 @@
     "name": "lol",
     "email": "dw@dsa",
     "password": "$2b$10$MErSZP0O/Cc9hCPhjJX2ROEHnOmSceWC52gVnDJcixOz6JuJIz10S"
-  }
-,
+  },
   {
     "id": "1646336778812",
     "name": "pop",
     "email": "pop@pop",
     "password": "$2b$10$MqMGlolVOQZreavfLfatbOYVwffrKZ7tpFSwdDxVPvkAE4nk779c."
+  }
+,
+  {
+    "id": "1646336912096",
+    "name": "lol",
+    "email": "lol@lol",
+    "password": "$2b$10$gVApploCNLWf4LcYVOiv4eLHDQhHtn5Ix6U5YQ./wkKeFkdaqRXau"
+  },
+  {
+    "id": "1646337677955",
+    "name": "udikkema",
+    "email": "udikke@ma",
+    "password": "$2b$10$4jzHedgwgkTR804pHGEP5uULb6RoiaGz.QRnM8hlKFkGzJ3Fw9WZu"
   }
 ]

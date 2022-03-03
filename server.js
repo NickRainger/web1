@@ -115,4 +115,4 @@ function checkNotAuthenticated(req, res, next) {
     }
     next()
 }
-app.listen(port, () => console.info(`Listening on port ${port}...\nrandom > ` + randomInt(0, 99)))
+app.listen(port, () => console.info(`Listening on port ${port}...`))
